@@ -51,7 +51,7 @@ class Notes {
 		arrL.remove(b);
 		System.out.println(arrL);
 
-		//Createing a HashMap
+		//Creating a HashMap
 
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
 		//creates an empty HashMap
@@ -68,7 +68,7 @@ class Notes {
 		map.put("b", 2);
 		map.put("c", 3);
 		map.put("d", 1);
-		// map.put("a", 5); //KEYS NEED TO BE UNIQUE
+		// map.put("a", 5); //KEYS NEED TO BE UNIQUE, this will replace a's value with 5
 		
 		//Getting a Value from a HashMap -> access by key
 
